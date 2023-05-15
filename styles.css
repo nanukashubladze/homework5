@@ -69,13 +69,22 @@ h4{
 .payment{
     width: 354px;
     height: 50px;
-    background-color: #382AE1;
-    border-radius: 11px;
-}
-.payment{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 32px 48px 100px 48px;
+    margin: 32px 48px 32px 48px;
+    background-color: #382AE1;
+    border-radius: 11px;
 }
-
+.order{
+    width: 96px;
+    height: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+h5{
+    font-weight: 900;
+    font-size: 15px;
+    color: #717FA6;
+}
